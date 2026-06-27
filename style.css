@@ -1,0 +1,128 @@
+body{
+    background-image: url("/Food\ Recipe/images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-attachment: fixed;
+    background-position: center;
+    width:97%;
+    color: rgba(80, 73, 73, 0.897);
+    font-family: cursive;
+    font-weight: bold;
+}
+.food-frame{
+     display: grid;
+     grid-template-columns: 500px 500px 500px;
+     margin: none;
+     justify-items: center;
+     width: auto;
+     height:auto;
+}
+.content1{
+    padding: none; 
+    width: 500px; 
+    text-align: center;
+    height: auto; 
+    background-color:brgba(255, 248, 220, 0.014);
+    
+}
+.content2{ 
+    padding: none; 
+    width: 500px; 
+    text-align: center;
+    height: auto; 
+    background-color: rgba(218, 155, 73, 0.767); 
+    color:rgba(80, 73, 73, 0.897);
+    border-radius: 10px;
+}
+.content3{
+    padding: none; 
+    width: 500px; 
+    text-align: center;
+    height: auto; 
+    margin: none ;
+    background-color: brgba(255, 248, 220, 0.014);
+}
+h1{
+    font-family: 'Pacifico', cursive;
+    font-style: italic;
+    
+}
+.subtitle{
+    font-family: 'Allura', cursive;
+    font-style: italic;
+}
+.title-design{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+.line{
+    width: 180px;
+    height: 1px;
+    background-color: white;
+}
+.heart{
+    font-size: 15px;
+    color: red;
+}
+.ingredients-section{
+    text-align: left;
+    border: 1px solid rgba(218, 155, 73, 0.767);
+    height: auto;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(255, 248, 220);
+    font-family: cursive;
+    font-weight: bold;
+}
+ul li{
+    margin-top: none;
+    margin-bottom:none;
+}
+.instruction-section{
+    text-align: left;
+    border: 1px solid white;
+    height: auto;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+    background-color: rgba(255, 248, 220, 0.199);
+    font-family: cursive;
+    font-weight: bold;
+}
+ol li{
+    list-style: circle;
+}
+img{
+    width: 450px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 5px ;
+    padding: 5x;
+    border: 5px solid rgba(228, 185, 130, 0.726); ;
+    
+}
+iframe{
+    border: 5px solid rgba(228, 185, 130, 0.726);
+    border-radius: 10px;
+    margin: 5px ;
+    padding: 5px;
+}
+.notes{
+    border:2px solid white;
+    border-radius: 10px;
+    margin: 10px 20px;
+    padding: 10px;
+    background-color:rgba(218, 155, 73, 0.767);
+    height:auto;  
+    text-align:left;
+}
+
+
+
+
+
+
